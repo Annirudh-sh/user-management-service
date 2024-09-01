@@ -6,14 +6,12 @@ import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
-import org.eclipse.microprofile.opentracing.Traced;
 
 import java.util.List;
 import java.util.Optional;
 
 @Slf4j
 @ApplicationScoped
-@Traced
 public class UserService {
 
     @Inject
